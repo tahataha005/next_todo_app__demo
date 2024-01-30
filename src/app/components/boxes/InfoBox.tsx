@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Image from "next/image";
-import logo from "@/assets/Logo.png";
+import logo from "@/lib/assets/Logo.png";
 import styles from "../../auth.module.css";
 import LoginForm from "../forms/LoginForm";
 import SignUpForm from "../forms/SignUpForm";
@@ -24,7 +24,14 @@ const InfoBox: FC<Props> = ({ isLogin, setIsLogin }) => {
       animate={isLogin ? "collapsed" : "expanded"}
     >
       <div className={styles.authLogo}>
-        <Image src={logo} alt="logo" width={100} height={100} sizes="4" />
+        <Image
+          src={logo}
+          alt="logo"
+          width={100}
+          height={100}
+          sizes="4"
+          priority
+        />
       </div>
 
       {isLogin ? (
