@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FC, useRef, useState } from "react";
 import "./style.css";
-import Icon from "@/ui/icons";
+import Icon from "@/lib/ui/icons";
 
 type Props = {
   label: string;
