@@ -1,0 +1,27 @@
+.button {
+  border: 0;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0 4px 10px rgb(157, 157, 157);
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:focus {
+  outline: none;
+  opacity: 0.9;
+  box-shadow: 0 4px 5px rgb(220, 220, 220);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:active {
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
