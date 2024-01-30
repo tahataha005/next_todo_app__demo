@@ -1,5 +1,5 @@
 import Button from "@/components/base/buttons/BaseButton";
-import Input from "@/components/base/inputs/BaseInput";
+import Input from "@/ui/base/inputs/BaseInput";
 import React, { FC } from "react";
 
 type Props = {
