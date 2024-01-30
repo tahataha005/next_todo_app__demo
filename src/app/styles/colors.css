@@ -1,0 +1,43 @@
+.primary-bg {
+  background-color: #3e4684;
+}
+
+.secondary-bg {
+  background-color: #dde5f4;
+}
+
+.black-bg {
+  background-color: #232323;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.grey-bg {
+  background-color: #f1f7fe;
+}
+
+.primary-text {
+  color: #3e4684;
+}
+
+.secondary-text {
+  color: #dde5f4;
+}
+
+.black-text {
+  color: #232323;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.dark-grey-text {
+  color: #4a4a4a;
+}
+
+.grey-text {
+  color: #a0a0a0;
+}
