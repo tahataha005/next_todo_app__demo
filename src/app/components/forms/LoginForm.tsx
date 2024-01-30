@@ -1,6 +1,7 @@
 import Button from "@/ui/base/buttons/BaseButton";
 import Input from "@/ui/base/inputs/BaseInput";
-import React, { FC } from "react";
+import { redirect } from "next/navigation";
+import React from "react";
 
 const LoginForm = () => {
   return (
@@ -12,7 +13,12 @@ const LoginForm = () => {
         label="Password"
         onChange={(e) => {}}
       />
-      <Button text="Login" onClick={() => {}} />
+      <Button
+        text="Login"
+        onClick={() => {
+          redirect("/dashboard");
+        }}
+      />
     </div>
   );
 };
