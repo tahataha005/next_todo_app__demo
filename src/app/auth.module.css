@@ -1,0 +1,38 @@
+.authBox {
+  min-width: 40%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 5px white solid;
+  backdrop-filter: blur(24px);
+}
+
+.currentForm {
+  height: 100%;
+  padding: 40px;
+}
+
+.currentForm > div > div > div {
+  gap: 20px;
+}
+
+.authBox > div > div > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.authLogo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.alternativeAuth {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.alternativeAuth > h2 {
+  margin-bottom: 20px;
+}
