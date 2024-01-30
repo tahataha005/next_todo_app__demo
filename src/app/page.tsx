@@ -1,4 +1,4 @@
-import AuthBox from "./auth/AuthBox";
+import AuthBox from "./components/AuthBox";
 
 const Auth = () => {
   return (

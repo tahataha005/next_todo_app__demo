@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import React, { FC } from "react";
-import Button from "@/components/base/buttons/BaseButton";
+import Button from "@/ui/base/buttons/BaseButton";
 import { motion } from "framer-motion";
 import styles from "../../auth.module.css";
 

@@ -1,4 +1,4 @@
-import Button from "@/components/base/buttons/BaseButton";
+import Button from "@/ui/base/buttons/BaseButton";
 import Input from "@/ui/base/inputs/BaseInput";
 import React, { FC } from "react";
 
