@@ -1,3 +1,5 @@
+"use server";
+
 import AuthBox from "./components/AuthBox";
 
 const Auth = () => {
