@@ -48,6 +48,15 @@ const ProfileBar = () => {
           <SideSchedule title="Handover tasks" />
         </div>
       </div>
+
+      <div className={`flex column ${styles.profileBarTeam}`}>
+        <h4 className="primary-text">TEAM</h4>
+        <div className={`flex full-width ${styles.teamContainer}`}>
+          <div className="flex circular primary-bg"></div>
+          <div className="flex circular primary-bg"></div>
+          <div className="flex circular primary-bg"></div>
+        </div>
+      </div>
     </div>
   );
 };
