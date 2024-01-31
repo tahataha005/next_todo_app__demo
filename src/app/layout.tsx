@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/lib/ui/styles/globals.css";
 import "@/lib/ui/styles/utilities.css";
 import "@/lib/ui/styles/colors.css";
 import StoreProvider from "./appConfigs/StoreProvider";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +16,7 @@ type Props = Readonly<{
 const RootLayout = ({ children }: Props) => {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <div className="app">
           <StoreProvider>{children}</StoreProvider>
         </div>
