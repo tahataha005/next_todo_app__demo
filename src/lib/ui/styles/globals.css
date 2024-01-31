@@ -9,3 +9,8 @@ img {
   width: 100%;
   background-size: contain;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
