@@ -1,0 +1,30 @@
+.search-input {
+  width: 45%;
+}
+
+.search-input > div {
+  align-items: center;
+  gap: 5px;
+}
+
+.search-input > div > input {
+  width: 100%;
+  border: 0;
+}
+
+.search-input > div > input::placeholder {
+  color: #b3b3b3;
+}
+
+.search-input > div > input:focus {
+  outline: none;
+}
+
+.search-input > div > div {
+  padding-bottom: 3px;
+}
+
+.search-input-line {
+  width: 100%;
+  height: 2px;
+}
