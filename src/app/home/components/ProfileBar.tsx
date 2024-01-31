@@ -39,6 +39,15 @@ const ProfileBar = () => {
           <ProfileStat content="26" header="Total" />
         </div>
       </div>
+
+      <div className={`flex column ${styles.profileBarSchedules}`}>
+        <h4 className="primary-text">SCHEDULES</h4>
+        <div className="flex column full-width">
+          <SideSchedule title="Monday" />
+          <SideSchedule title="Graduation Day" />
+          <SideSchedule title="Handover tasks" />
+        </div>
+      </div>
     </div>
   );
 };
