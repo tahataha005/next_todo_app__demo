@@ -1,0 +1,14 @@
+.progress-bar-container {
+  height: 7px;
+  position: relative;
+  margin: 10px 0;
+  background-color: #ebecf6;
+  overflow: hidden;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
