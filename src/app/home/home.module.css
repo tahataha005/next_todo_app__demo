@@ -1,0 +1,9 @@
+.profileBar {
+  width: 20%;
+  z-index: 1;
+}
+
+.profileBarHeader {
+  height: 10%;
+  border-bottom: 2px solid #f2f2f2;
+}
