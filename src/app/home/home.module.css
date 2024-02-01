@@ -7,3 +7,41 @@
   height: 10%;
   border-bottom: 2px solid #f2f2f2;
 }
+
+.profileBarInfo {
+  height: 40%;
+  padding: 0 40px;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.profilePhoto {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+}
+
+.userInfo {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.userInfo > h3 {
+  margin-top: 20px;
+}
+
+.userInfo > p {
+  font-size: 12px;
+}
+
+.profileStat {
+  flex: 1;
+  margin-top: 5px;
+}
+
+.profileStat > h3 {
+  margin-bottom: 5px;
+}
+
+.profileStat > p {
+  font-size: 12px;
+}
