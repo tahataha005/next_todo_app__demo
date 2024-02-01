@@ -45,3 +45,36 @@
 .profileStat > p {
   font-size: 12px;
 }
+
+.profileBarSchedules {
+  height: 30%;
+  padding: 20px 0 0 40px;
+  gap: 10px;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.profileBarSchedules > div {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.profileBarSchedules > div::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.profileBarSchedules > div::-webkit-scrollbar-thumb {
+  background-color: #ebecf6;
+  border-radius: 5px;
+}
+
+.sideSchedule {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sideSchedule > div {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
