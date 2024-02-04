@@ -43,3 +43,20 @@
   background-color: #ebecf6;
   border-radius: 5px;
 }
+
+.task {
+  display: flex;
+  min-height: 15%;
+  max-height: 15%;
+  padding: 10px 0;
+  border-bottom: 2px solid #ebecf6;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.task-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
