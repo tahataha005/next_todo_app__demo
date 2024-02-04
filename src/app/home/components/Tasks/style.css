@@ -60,3 +60,25 @@
   border-radius: 50%;
   margin-right: 20px;
 }
+
+.add-task {
+  height: 10%;
+}
+
+.add-task-button {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+
+.add-task-button:focus {
+  outline: none;
+}
+
+.add-task-button:hover {
+  background-color: #8a2be2;
+}
