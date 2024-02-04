@@ -105,3 +105,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.homePage {
+  height: 90%;
+  width: 80%;
+}
