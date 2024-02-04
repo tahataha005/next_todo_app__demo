@@ -28,3 +28,18 @@
 .categories-filter > select:focus {
   outline: none;
 }
+
+.tasks-list {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.tasks-list::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.tasks-list::-webkit-scrollbar-thumb {
+  background-color: #ebecf6;
+  border-radius: 5px;
+}
